@@ -39,6 +39,7 @@ function ForwardRequest(originRequest, originResponse) {
     url: url
   }).on('response', function (res) {
     console.log('"response" event!', res.headers);
+    originResponse.writeHead(res.statusCode, res.headers);
     res.pipe(originResponse);
   }));
 }
