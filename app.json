@@ -10,7 +10,7 @@
     "node-reverse-proxy",
     "reverse-proxy"
 	],
-	"repository": "https://github.com/inspiredstuffs/node-reverse-proxy.git",
+	"repository": "https://github.com/Payzone-UK/pz-node-reverse-proxy.git",
 	"buildpacks": [
 		{
 			"url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
