@@ -1,5 +1,5 @@
 {
-	"name": "node-reverse-proxy",
+	"name": "pz-node-reverse-proxy",
 	"description": "A reverse proxy for serving requests to servers located in a restricted network connectivity including firewalls, NATs and ACLs, among other restrictions. The tunnel is created by an intermediary called a proxy server which is usually located in a DMZ.",
 	"keywords": [
     "http",
